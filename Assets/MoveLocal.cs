@@ -9,7 +9,7 @@ public class MoveLocal : MonoBehaviour
     [SerializeField] float destroyTime = 5;
     private void Awake()
     {
-        Destroy(gameObject, destroyTime);
+        ObjectPool.Destroy(gameObject, destroyTime);
     }
     void Update()
     {
