@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    static ObjectPool instance;
+    private void Awake()
     {
-        
+        instance = this;
     }
-
-    // Update is called once per frame
-    void Update()
+    new public static T instantiate<T>(T original) where T : Object
     {
-        
+
     }
 }
