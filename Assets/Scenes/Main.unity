@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pool: []
-  intCount: 5
+  initCount: 2
 --- !u!4 &783429591
 Transform:
   m_ObjectHideFlags: 0
